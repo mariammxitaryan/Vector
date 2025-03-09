@@ -1,10 +1,10 @@
-#define VECTOR_H
+#ifndef VECTOR_H
 #define VECTOR_H
 
 #include "vectorIteratorHeader.hpp"
 
-template<typename T>
-class Vector {
+template <typename T>
+class Vector{
 public:
     using iterator = Iterator<T>;
     using reference = T&;
